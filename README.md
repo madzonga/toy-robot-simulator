@@ -28,12 +28,5 @@ Ensure npm 8.x.x and node 16.x.x are installed
 - node index.ts name_of_file.txt
 
 
-## Acknowledgements
-Give credit here.
-- This project was inspired by Mryum
-- This project was based on [this tutorial](https://www.example.com).
-- Many thanks to...
-
-
 ## Contact
 Created by Glenn Madzonga
