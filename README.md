@@ -53,13 +53,13 @@ Continue:
 - cd toy-robot-simulator
 - npm install
 
-To run tests
-- npm test
 
 ## Usage
 - cd src
 - ts-node index.ts commands.txt
 
+To run tests
+- npm test
 
 ## Contact
 Created by Glenn Madzonga
