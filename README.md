@@ -44,7 +44,8 @@ REPORT commands.
 
 ## Setup
 Ensure `npm 8.x.x`, `node 14.18.3` and `ts-node 10.x.x` are installed
-For compatibility purposes it's best to just use the node version mentioned above. To install that use `n`.
+For compatibility purposes it's best to just use the node version mentioned above (though you're welcome to try run the app with the version you have installed on your computer first). 
+- To install a specific version, use `n`.
 - npm install -g n   # Install n globally
 - sudo n 14.18.3
 
