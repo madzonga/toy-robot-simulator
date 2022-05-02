@@ -52,7 +52,6 @@ test("expect robot to be placed at specified x,y position (4,0)", () => {
     expect(coordinates).toStrictEqual([4, 0, "NORTH"]);
 });
 
-
 test("expect robot to start facing the EAST without changing coordinates", () => {
     expect(right(coordinates)).toStrictEqual([4, 0, "EAST"]);
 });

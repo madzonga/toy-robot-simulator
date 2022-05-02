@@ -1,6 +1,6 @@
 # toy-robot-simulator
 
-> The application is a simulation of a toy robot moving on a square tabletop, of dimensions 5 units x 5 units..
+> The application is a simulation of a toy robot moving on a square tabletop, of dimensions 5 units x 5 units.
 
 
 ## General Information
@@ -34,15 +34,21 @@ REPORT commands.
 - Provide test data to exercise the application. (file input commands.txt)
 
 
-## Dependencies
+## Dependencies and Tech used
 - node
-- typescript
-- jest
+- npm
 - ts-node
+- jest
+- joi
 
 
 ## Setup
-Ensure `npm 8.x.x`, `node 18.x.x` and `ts-node 10.x.x` are installed
+Ensure `npm 8.x.x`, `node 14.18.3` and `ts-node 10.x.x` are installed
+For compatibility purposes it's best to just use the node version mentioned above. To install that use `n`.
+- npm install -g n   # Install n globally
+- sudo n 14.18.3
+
+Continue: 
 - git clone git@github.com:madzonga/toy-robot-simulator.git
 - cd toy-robot-simulator
 - npm install
@@ -51,7 +57,8 @@ To run tests
 - npm test
 
 ## Usage
-- ts-node index.ts name_of_file.txt
+- cd src
+- ts-node index.ts commands.txt
 
 
 ## Contact
