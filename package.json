@@ -1,0 +1,27 @@
+{
+  "name": "toy-robot-simulator",
+  "version": "1.0.0",
+  "description": "toy robot simulator",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/madzonga/toy-robot-simulator.git"
+  },
+  "keywords": [
+    "mryum"
+  ],
+  "author": "Glenn Madzonga",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/madzonga/toy-robot-simulator/issues"
+  },
+  "homepage": "https://github.com/madzonga/toy-robot-simulator#readme",
+  "dependencies": {
+    "jest": "^28.0.0",
+    "node": "16.14.2",
+    "npm": "^8.7.0"
+  }
+}
